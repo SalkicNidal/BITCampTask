@@ -14,7 +14,7 @@ public class Day2Week2Task4 {
 		do {
 
 			System.out.println("Entered number again: ");
-			input = in.nextInt();
+			Scanner in = new Scanner(System.in);
 			if (input%2!=0){
 				sum+=1;}
 				else
